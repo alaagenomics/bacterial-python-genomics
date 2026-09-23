@@ -1,0 +1,31 @@
+# NCBI downloaded genome packages
+data/raw/*.zip
+
+# Extracted NCBI datasets
+data/raw/k12/
+data/raw/ar0346/
+data/raw/k12_annotation/
+data/raw/ar0346_annotation/
+
+# Raw genome files
+data/raw/*.fna
+data/raw/*.fa
+data/raw/*.fasta
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated result tables
+results/
+
+# Temporary files
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
